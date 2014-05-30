@@ -41,6 +41,8 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
+$route['widget/:any/get'] = "widget/get";
+$route['widget/:any/set/(:any)'] = "widget/set/$1";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
